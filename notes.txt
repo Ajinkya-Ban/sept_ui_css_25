@@ -1,0 +1,160 @@
+CSS Introduction
+------------------------
+what is mean by css?
+history of css?
+Types of css?
+----------------------
+a) inline css 
+b) internal css : for single pages. Basically written in head section --> style
+c) external css: it is the better choice for writting the css code. Bcz single file can change in every html file.
+
+
+
+
+Note: Every html element has style.
+
+Syntx of css
+------------------------
+selectors {
+    key:value;
+    key:value;
+}
+
+Q. how we can link one file with another file?
+    OR
+   how we can copy one file code into another file?
+
+Ans : By using @import url(file path) rule.
+====================================================================================
+Q. how we can define the variables in css?
+scope : global 
+In css we can define the variable in one section called as root section.
+Syntax For Variable:
+-------------------------------
+:root{
+    --variableName : value;
+}
+
+how we can access the value of variable?
+----------------------------------------------
+To access the value of variable we use one function called as var() function. 
+
+Q. how we can use external font?
+-----------------------------------------
+1. go to google.com and search google fonts.
+====================================================================================
+
+Q. What is mean css selectors?
+------------------------------------
+The selectors is nothing but targetting element. By using the selectors we can target the html element.
+The following are some the selectors which can be used in css.
+
+a) ID selector: Id is the unique. ID selector indicated by using # symbol.
+b) class selector: Class can be indicated by using dot(.). We can apply multiple classes to single element.
+
+c) group selector: We can create group of tag as well as group of class. 
+d) class with tag selector:
+e) tag selector : In tag selector we can directly use html element.
+f) psudeo element:
+--------------------------
+There are total 7 psudeo element present in css.
+The psudeo element can be used for to apply style to the html element for temporary purpose.
+psudeo element can not added inside the html.
+The psudeo element indicated by using :: 
+The following list of the psudeo elements.
+The ::before and ::after can only work when we use the property 'content'.
+
+a) ::before 
+b) ::after 
+c) ::first-letter
+d) ::first-line
+e) ::selection 
+f) ::marker : ul li 
+g) ::placeholder
+
+g) psudeo classes
+h) Universal selector : it is denoted by *
+
+
+
+
+Q. What is mean css box model?
+-----------------------------------
+1. margin : Outer space of border is called as margin
+
+margin: 10px ---> all side the margin will be 10px 
+margin: 10px 20px --> 10px --> top and bottom and 20px ---> left and right
+margin: 1px 5px 10px 15px 
+margin:auto --> horizantally left and right side equal space adjusted.
+
+
+
+
+2. padding : Inner space of border is called as padding.
+
+padding: 10px 
+padding: 10px 20px 
+padding: 1px 5px 10px 15px 
+====================================================================================
+
+CSS Background Properties:
+---------------------------------
+In the Background property there will be another two Properties like,
+If i want to set Background Color
+a) background-color : 
+-----------------------------------------------
+The background-color has one drawback that is you can set only one color at time.
+But my requirement is i want to set multiple color at a time than i can use the property
+called as background-image.
+
+Syntax background-color
+--------------------------------
+background-color: color-name / hexadecimal value / rgb / hsl 
+
+
+
+
+If i want set background image than i can use the property
+b) background-image: 
+---------------------------------
+1. To set multiple background color i can use one function called as linear-gradient()
+
+linear-gradient(direction, colors) 
+where direction means we can set color direction as to right, to left, to top, to bottom.
+You can also pass direction as degeree
+
+
+
+2. To set background image:
+----------------------------------------
+If we want to take image as background than we can use the property called as 
+background-image : url(image path)
+
+vh --> viewport height --> 1ht --> 1% screen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
