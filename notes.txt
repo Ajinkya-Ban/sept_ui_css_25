@@ -132,6 +132,25 @@ background-image : url(image path)
 
 vh --> viewport height --> 1ht --> 1% screen
 
+===================================================
+Layout Desgin: No Responsive
+------------------------
+1. width 
+2. height / min-height 
+3. background-color 
+4. border 
+5. text-decoration 
+6. float : right , left 
+7. margin 
+8. padding 
+9. font-size, font-weight
+10. text-align 
+
+page type:
+-----------------
+1. center page : 60% , 80% 
+2. full width : 100% 
+
 
 
 
