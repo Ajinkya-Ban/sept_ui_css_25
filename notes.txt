@@ -145,6 +145,7 @@ Layout Desgin: No Responsive
 8. padding 
 9. font-size, font-weight
 10. text-align 
+11. display : block, inline, inline-block
 
 page type:
 -----------------
