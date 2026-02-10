@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .box {
+        width: 450px;
+        min-height: 300px;
+        border: 100px solid red;
+        margin: 160px auto;
+        border-image-source: url(./imgs/border_images/border2.png);
+        border-image-slice: 250;
+        border-image-outset: 60px;
+        border-image-repeat: stretch;
+        border-radius: 50%;
+        /* background-color: lightgoldenrodyellow; */
+        background-image: linear-gradient(orange, black);
+        animation-name: move;
+        animation-duration: 10s;
+      }
+      .photo {
+        text-align: center;
+        animation-iteration-count: infinite;
+      }
+      .photo img {
+        border: 5px solid lightgray;
+        border-radius: 50%;
+        width: 140px;
+        height: 150px;
+        padding: 10px;
+      }
+      .text h1 {
+        text-align: center;
+        color: white;
+      }
+      @keyframes move {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="photo">
+        <img src="./imgs/Jerry_Mouse.png" />
+      </div>
+      <div class="text">
+        <h1>Happy Birthday🎂🍫</h1>
+      </div>
+    </div>
+  </body>
+</html>

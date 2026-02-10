@@ -152,6 +152,50 @@ page type:
 1. center page : 60% , 80% 
 2. full width : 100% 
 
+-------------------------------------------------------------------------
+border:
+---------------------
+1. border-width 
+2. border-style
+3. border-color 
+4. border-top,right,left,bottom : none 
+5. border-top-width, right, left, bottom 
+6. border-top-color, right, left, bottom 
+7. border-top-left-radius
+
+
+border-image 👍
+----------------------------
+1. border-image-source:url(image_path)
+2. border-image-slice 
+3. border-image-width 
+4. border-image-outset 
+5. border-image-repeat: repeat, round, stretch
+
+
+
+position:
+----------------------------
+1. static (default):
+-------------------------
+If i want to move the static element to the right, left, top, bottom than i can use the 
+property margin and padding. 
+
+Q. I want to move the static element witout using margin and padding?
+-----------------------------------------------------------------------
+We can achive this by using position Properties. Inside this property we use the following some Properties,
+a) right 
+b) left 
+c) top
+d) bottom 
+e) z-index 
+
+2. relative
+3. absolute
+4. sticky 
+5. fixed
+
+
 
 
 
