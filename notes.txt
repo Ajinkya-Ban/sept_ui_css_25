@@ -194,6 +194,10 @@ e) z-index
 3. absolute
 4. sticky 
 5. fixed
+-----------------------------------------------------------------------------
+Backdrop fillter:
+-----------------------
+background-color : transpernt or regba()
 
 
 
