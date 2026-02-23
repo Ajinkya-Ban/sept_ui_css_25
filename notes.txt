@@ -197,7 +197,110 @@ e) z-index
 -----------------------------------------------------------------------------
 Backdrop fillter:
 -----------------------
-background-color : transpernt or regba()
+background-color : transpernt or regba(255,255,255,0.1)
+blur(pixel)
+contrast(100%)
+graysclae(100%)
+sepia(100%)
+brightness(100%) 
+--------------------------------------------------------------------------
+
+
+display:
+--------------------------
+how the html element display on the page. 
+1. block
+2. inline 
+3. inline-block
+What is the difference between inline and inline-block?
+inline:
+-----------------
+1. padding-top 
+2. margin-top 
+3. width 
+4. height 
+All above are not working in inline. 
+
+
+inline-block:
+----------------------------
+1. margin
+2. padding 
+3. width 
+4. height
+
+
+4. flex:
+----------------------------------------
+What is mean by flex?
+----------------------------
+1. Flex is tool which can be used for to arrange the rows and columns in proper manner. 
+2. By using the flex we can create 80% of the responsive. 
+3. Flex has one drawback, flex can work on only one direction at a time. 
+4. We avoid float property.
+5. If we want to  learn flex than we know some properties of flexbox. 
+
+Note:
+---------------
+1. flex-container 
+2. flex-item 
+
+Properties 
+------------------------------
+1. display: flex --> When i am using this property than all div's arrange in row direction.
+2. flex-direction --> To change the direction of flex items. By default the direction is row, you change the direction as column, row-reverse, column-reverse.
+3. justify-content --> this property works on horizantal direction. In this we use below properties 
+    a) start(left)
+    b) center (middle)
+    c) end (right)
+    d) space-between
+    e) space-around
+    f) space-evenly 
+
+4. align-items : This property works vertical direction. Below are some properties of align-items. 
+    a) stretch (default)
+    b) start 
+    b) center 
+    c) end 
+
+5. flex-wrap:This property wrap the content into single box. Below is the property for flex wrap 
+    a) nowrap(default)
+    b) wrap 
+    c) wrap-reverse
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5. grid 
+6. table
+7. list 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
