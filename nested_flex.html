@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        width: 600px;
+        border: 1px solid #000;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+      }
+      .item {
+        color: white;
+        padding: 15px;
+        margin: 5px;
+        height: 200px;
+      }
+      .box1 {
+        background-color: orangered;
+      }
+      .box2 {
+        background-color: purple;
+      }
+      .box3 {
+        background-color: black;
+      }
+      .sub-box {
+        display: flex;
+        justify-content: space-between;
+      }
+      .sub {
+        width: 200px;
+        height: 100px;
+        border: 1px solid white;
+        margin: 5px;
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item box1">box1</div>
+      <div class="item box2">
+        <div class="sub-box">
+          <div class="sub b1">1</div>
+          <div class="sub b2">2</div>
+          <div class="sub b3">3</div>
+        </div>
+      </div>
+      <div class="item box3">box3</div>
+    </div>
+  </body>
+</html>

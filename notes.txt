@@ -268,6 +268,39 @@ Properties
     b) wrap 
     c) wrap-reverse
 
+6. align-content:
+------------------------------
+1.This property work same as align-items but it has properties like justify-content. 
+2.This property work in vertical direction. 
+3.align-content works in multiple row while align-items work in single row. 
+
+
+7. align-self:
+--------------------------------------
+If i want to arrange a perticular div than i can use the property align-self. 
+align-self is same as align-items which works in vertical direction. 
+The following are some properties align-self. 
+    a) start
+    b) center 
+    c) end 
+    d) stretch(default)
+    e) auto --> auto property depend parent. 
+
+8. order:
+--------------------------------------------
+to change the location or placement of div than we can use order property. 
+We can pass either positive value or negative value to order property.
+
+
+9. nested flex:
+-----------------------------------------
+flex within flex is called as nested flex.  
+
+
+10. flex-basis:
+11. flex-grow: 
+
+
 
 
 
