@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .main-box {
+        width: 80%;
+        min-height: 300px;
+        margin: auto;
+        border: 1px solid #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+      }
+      .box1 {
+        width: 50%;
+        height: 200px;
+        background-color: yellow;
+      }
+      .box2 {
+        width: 50%;
+        height: 200px;
+        background-color: black;
+      }
+
+      /* media query code */
+
+      @media only screen and (max-width: 500px) {
+        .main-box {
+          flex-direction: column;
+          width: 100%;
+        }
+        .box1 {
+          width: 100%;
+        }
+        .box2 {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-box">
+      <div class="box1">Box1</div>
+      <div class="box2">Box2</div>
+    </div>
+  </body>
+</html>

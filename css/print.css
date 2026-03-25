@@ -1,0 +1,10 @@
+.question h1 {
+  color: red;
+}
+.ans p {
+  text-align: justify;
+  font-size: 1.3em;
+}
+.adv {
+  display: none;
+}

@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  min-height: 100px;
+  margin: auto;
+  /* border: 1px solid #000; */
+}
+.row {
+  width: 100%;
+  min-height: 200px;
+}
+.row .question h1 {
+  padding: 10px;
+}
+.row .ans p {
+  padding: 10px;
+}
+
+/* print media code */
+
+@media print {
+  .question h1 {
+    color: red;
+  }
+  .ans p {
+    text-align: justify;
+    font-size: 1.3em;
+  }
+  .adv {
+    display: none;
+  }
+}

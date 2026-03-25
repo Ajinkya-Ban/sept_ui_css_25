@@ -300,28 +300,40 @@ flex within flex is called as nested flex.
 10. flex-basis:
 11. flex-grow: 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 5. grid 
 6. table
 7. list 
 
 
+-------------------------------------------------------------------------------
+Media query
+---------------------
+Responsive pages Desgin
+Media type
+--------------------
+1. screen --> devices
+2. print 
+3. speech 
+4. all 
+
+Breakpoints
+----------------------------
+specific rule 
+mobile --> >500px 
+tablet --> <500px and >768px 
+small desktop ---> <768px to > 992px 
 
 
+Syntax:
+---------------
+@media only type and (condition){
+    CSS properties
+}
 
+
+---------------------------------------------------------------------------------------
+Animation in css 
+---------------------------
 
 
 

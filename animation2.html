@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        height: 90vh;
+        justify-content: center;
+        align-items: center;
+      }
+      .box {
+        width: 100px;
+        height: 80px;
+        background-color: royalblue;
+        animation-name: moveBox;
+        animation-duration: 4s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+      }
+
+      @keyframes moveBox {
+        0% {
+          /* transform: translateX(0px); */
+          transform: translate(-200px);
+          border-radius: 10%;
+        }
+        100% {
+          transform: translateX(200px);
+          border-radius: 50%;
+          box-shadow: 10px 10px 10px red;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+  </body>
+</html>
