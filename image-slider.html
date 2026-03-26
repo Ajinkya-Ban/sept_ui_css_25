@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #f2f2f2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .slider {
+        width: 80%;
+        height: 200px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+      }
+      .slider-track {
+        display: flex;
+        width: calc(200px * 4);
+        animation: scroll 30s infinite linear;
+      }
+      .slider-track img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin-right: 10px;
+      }
+
+      @keyframes scroll {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(calc(-200px * 4));
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slider">
+      <div class="slider-track">
+        <img src="./imgs/comp1.jpeg" />
+        <img src="./imgs/comp2.jpeg" />
+        <img src="./imgs/comp3.jpg" />
+        <img src="./imgs/e3.jpg" />
+
+        <!-- create duplicate of this -->
+        <img src="./imgs/comp1.jpeg" />
+        <img src="./imgs/comp2.jpeg" />
+        <img src="./imgs/comp3.jpg" />
+        <img src="./imgs/e3.jpg" />
+      </div>
+    </div>
+  </body>
+</html>
